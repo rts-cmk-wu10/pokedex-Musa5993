@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(red 0% 45%, black 45% 55%, white 55% 100%);
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.2;
+    font-size: 1em;
+  
+    color: #000;
+    scroll-behavior: smooth;
+   
+}
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 24%;
+}
+.pokemon_logo{
+    margin-left: -5%;
+
+}
+.searchForm{
+margin-left: 4%;
+
+}
+.pokemonList{
+text-align: center;
+margin-left: 25%;
+margin-top: 5%;
+border-radius: 1%;
+padding: 1%;
+
+width: 50%;
+color: aliceblue;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.List{
+   background-color: #FFCC00;
+   padding: 1%;
+   list-style: none;
+   text-transform: capitalize;
+ border: 3px solid #3366cc;
+}
+.ability{
+    margin-left: -90%;
+    margin-top: -20%;
+  
+}
+.prevPage{
+    margin-left: 43%;
+    
+}
+
+.fint{
+    margin-top: -25%;
+    margin-left: 74%;
+    width: 20%;
+}
+.Squirtle{
+   margin-left: 3%;
+   width: 20%;
+   margin-top: -15%;
+}
+.Moon{
+    width: 10%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.list_Ability{
+    margin-left: -90%;
+    margin-top: -15%;
+    font-family: 'Inconsolata';
+ 
+    
+}
+
+
+.list_types{
+    margin-left: -25%;
+    margin-top: -15%;
+    font-family: 'Inconsolata';
+ 
+}
+
+.højde{
+    margin-left: 40%;
+    margin-top: -20%;
+}
+.pokemon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+   
+}
+.Pokemon_li{
+    border: 3px solid #3366cc;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -2%;
+}
+h1{
+    
+    margin-left: 35%;
+    text-transform: capitalize;
+}
+.type{
+    margin-left: 70%;
+    margin-top: -20%;
+}
+.list_height{
+    margin-left:50% ;
+    margin-top: -15%;
+}
+
+.back_button{
+  margin-top: -20%;
+  
+    border-radius: 50%;
+  margin-left: 10%;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.5);
+     
+}
+a{
+    color: aliceblue;
+    margin-top: -25%;
+}

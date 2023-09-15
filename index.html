@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="pokemon.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <h1>
+        <img class="pokemon_logo" src="images/pokemon.png" alt="pokemon">
+    </h1>
+
+
+    <form class="searchForm" action="pokemon.html" autocomplete="off">
+        <label>
+            <input type="search" name="name" list="pokemons" class="pokemon__search">
+            
+            <datalist id="pokemons"></datalist>
+        </label>
+
+        <button class="button_from" type="submit">Search</button>
+    </form>
+    <a href="" class="prevPage" >Forrige</a> | <a href="" class="nextPage">Næste</a>
+
+    <ul class="pokemonList"></ul>
+    <div class="pokemon"></div>
+
+    <img class="fint" src="images/Pikachu-fint.png" alt="" srcset="">
+    <img class="Squirtle" src="images/Pokemon Squirtle .png" alt="" srcset="">
+    
+    <script defer src="index.js"></script>
+    
+</body>
+
+</html>
